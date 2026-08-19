@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="OnlineMedikament — a modern medication information and health education resource.">
+<title>OnlineMedikament — Medication Information Hub</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600;700&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#f4f8f7;color:#17312d;font-family:Lexend,sans-serif}
+nav{height:76px;padding:0 7%;display:flex;align-items:center;justify-content:space-between;background:#fff;border-bottom:1px solid #dce8e4}.logo{font-size:22px;font-weight:700}.logo span{color:#0d8b78}nav a{color:#60726e;text-decoration:none;margin-left:24px;font-size:13px}
+.hero{padding:100px 7% 110px;display:grid;grid-template-columns:1.05fr .95fr;gap:65px;align-items:center;background:linear-gradient(135deg,#fff 48%,#e3f2ee)}
+.kicker{font-size:11px;letter-spacing:3px;text-transform:uppercase;color:#0d8b78;font-weight:700}
+h1,h2{font-family:"Playfair Display",serif;font-weight:600}h1{font-size:clamp(50px,7vw,82px);line-height:1.02;letter-spacing:-2px;margin:18px 0 25px}.lead{font-size:18px;line-height:1.8;color:#667773;max-width:610px}
+.btn{display:inline-block;margin-top:20px;background:#0d8b78;color:#fff;padding:14px 22px;border-radius:8px;text-decoration:none;font-weight:700}
+.hero-img{height:520px;border-radius:28px;background:url('https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=1200&q=85') center/cover}
+.notice{margin:0 7%;padding:18px 22px;background:#fff4df;border:1px solid #f0d9aa;border-radius:10px;color:#765d31;font-size:13px;line-height:1.6}
+section{max-width:1200px;margin:auto;padding:90px 7%}h2{font-size:46px;line-height:1.05;margin:10px 0 30px}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:#fff;border:1px solid #dce8e4;border-radius:18px;padding:28px;min-height:220px}.card b{color:#0d8b78;font-size:12px}.card p{color:#6b7a76;line-height:1.7}
+.split{display:grid;grid-template-columns:.9fr 1.1fr;gap:60px;align-items:center}.split img{width:100%;height:420px;object-fit:cover;border-radius:24px}.list{display:grid;gap:12px}.item{background:#fff;padding:20px;border-radius:12px;border-left:4px solid #56b8a5}.item strong{display:block;margin-bottom:6px}.item span{color:#6b7a76;font-size:14px;line-height:1.6}
+.cta{max-width:none;margin:20px 7% 70px;background:#17312d;color:#fff;border-radius:24px;text-align:center;padding:75px 20px}.cta p{color:#b9cbc6}.cta .btn{background:#56b8a5;color:#17312d}
+footer{padding:28px 7%;background:#fff;border-top:1px solid #dce8e4;display:flex;justify-content:space-between;color:#788682;font-size:12px}
+@media(max-width:850px){.hero,.split{grid-template-columns:1fr}.cards{grid-template-columns:1fr}.hero-img{height:390px}nav a{display:none}footer{display:block}footer span{display:block;margin-top:8px}}
+</style>
+</head>
+<body>
+<nav><div class="logo">Online<span>Medikament</span></div><div><a href="#topics">Topics</a><a href="#safety">Safety</a><a href="#about">About</a><a href="#contact">Contact</a></div></nav>
+
+<header class="hero">
+<div><div class="kicker">Medication Information / Health Education</div><h1>Clear information for smarter health conversations.</h1><p class="lead">OnlineMedikament is a clean educational resource designed to help people understand common medication topics, health terminology and questions to discuss with qualified healthcare professionals.</p><a class="btn" href="#topics">Explore Topics →</a></div>
+<div class="hero-img"></div>
+</header>
+
+<div class="notice"><strong>Important:</strong> This website concept provides general educational information only. It is not a pharmacy, does not sell medicines, and does not replace advice from a doctor or pharmacist.</div>
+
+<section id="topics">
+<div class="kicker">Explore the library</div><h2>Start with the information you need.</h2>
+<div class="cards">
+<article class="card"><b>01 / MEDICATION BASICS</b><h3>How medicines work</h3><p>Understand general concepts such as active ingredients, dosage forms, directions and common medication terminology.</p></article>
+<article class="card"><b>02 / SAFETY</b><h3>Questions worth asking</h3><p>Learn which details to discuss with a healthcare professional before starting, stopping or changing a medicine.</p></article>
+<article class="card"><b>03 / HEALTH LITERACY</b><h3>Read labels with confidence</h3><p>Build everyday health-literacy skills for understanding labels, instructions and professional guidance.</p></article>
+</div>
+</section>
+
+<section class="split" id="safety">
+<img src="https://images.unsplash.com/photo-1580281658628-7d2e6e2c9e48?auto=format&fit=crop&w=1200&q=85" alt="Healthcare professional consultation">
+<div><div class="kicker">Safety first</div><h2>Good information starts with good questions.</h2><div class="list">
+<div class="item"><strong>Check the active ingredient</strong><span>Know what a medicine contains and ask whether it is appropriate for your situation.</span></div>
+<div class="item"><strong>Follow professional instructions</strong><span>Use medicines only as directed by a qualified healthcare professional or official product information.</span></div>
+<div class="item"><strong>Ask about interactions</strong><span>Tell your doctor or pharmacist about other medicines, supplements and relevant health details.</span></div>
+</div></div>
+</section>
+
+<section id="about"><div class="kicker">Our purpose</div><h2>Health information should be understandable.</h2><p class="lead">OnlineMedikament is designed around simple language, responsible education and easy navigation. The goal is to help visitors arrive at healthcare conversations better prepared—not to diagnose conditions or prescribe treatment.</p></section>
+
+<section class="cta" id="contact"><div class="kicker" style="color:#8ed9ca">LEARN RESPONSIBLY</div><h2>Better questions can lead to better conversations.</h2><p>Use reliable health information as a starting point and consult qualified professionals for personal medical advice.</p><a class="btn" href="mailto:hello@onlinemedikament.online">Contact Us →</a></section>
+
+<footer><strong>OnlineMedikament</strong><span>© 2026 OnlineMedikament. Health education concept.</span></footer>
+</body>
+</html>
